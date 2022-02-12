@@ -1,0 +1,6 @@
+github:
+  clientId: a228a5de4b8a563d9951
+  clientSecret: a0bb3accf3b749d64467bb24daf2960da7baec7d
+
+server:
+  port: 8080

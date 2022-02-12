@@ -13,7 +13,6 @@
   <groupId>com.testo</groupId>
   <artifactId>oauth2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>oauth2</name>
   <packaging>pom</packaging>
 
   <properties>
@@ -21,21 +20,18 @@
   </properties>
 
   <modules>
-    <module>client-service</module>
-    <module>service1</module>
-    <module>service2</module>
+    <module>client</module>
+    <module>service</module>
   </modules>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
     </dependency>
   </dependencies>
 
